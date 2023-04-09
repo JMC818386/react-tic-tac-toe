@@ -1,0 +1,27 @@
+.box {
+    background-color: rgb(56, 56, 56);
+    border: none;
+    border-radius: 10%;
+    box-shadow: 0px 0px 8px #c5c5c5;
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    font-size: 9em;
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    line-height: 10rem;
+    margin: 1rem;
+}
+
+.x {
+    color: #FF3131;
+}
+
+.o {
+    color: rgb(71, 241, 24);
+}
+
+.box:hover {
+    box-shadow: 0px 0px 15px #c5c5c5;
+    cursor: pointer;
+}
